@@ -1,0 +1,10 @@
+body {
+	font-family: 'Sarabun', sans-serif;
+}
+#reset {
+	display:block;
+}
+
+#ageCorrect {
+	visibility: hidden;
+}
