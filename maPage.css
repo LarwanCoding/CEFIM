@@ -1,16 +1,17 @@
+
+
 * {
 	box-sizing:border-box;
 }
-body {
+body{
 	font-family: 'Sarabun', sans-serif;
 	letter-spacing:0.1em;
-	background-color: #d7d7d7;
+	background-color: #fff;
 	color:#000;
 	font-size:1.5em;
-	margin:2em 0 ;
 }
 
-div {
+body > div{
 	width: 90%;
 	margin:0 auto;
 }
@@ -21,15 +22,37 @@ h1, h2, h4{
 }
 
 h2, h4 {
-	border-top: 5px solid #fff;
+	border-top: 5px solid #4a4a4a;
 	padding-top:1em;
 }
 
 p {
-	width:80%;
-	margin:0 auto;
-	justify-content: justify;
+	margin:20px auto;
 	text-indent: 50px;
+	text-align:center;
+}
+
+ul {
+	margin:0 auto;
+	list-style: none;
+	justify-content: center;
+}
+
+ul li{
+	display: inline-block;
+	float: left;
+	width:30%;
+	text-align: center;
+}
+
+.container {
+	margin: 3em 0;
+}
+
+.clear{
+	content: "";
+	clear: both;
+	display: table;
 }
 
 .button{
@@ -57,29 +80,57 @@ p {
 	outline:none;
 }
 
-ul {
-	margin:3em auto;
-	list-style: none;
-	justify-content: center;
+ul#hobbies li
+{
+	height:400px;
+	margin:10px 10px;
+	font-weight: 700;
+	padding:10px;
 }
 
-ul li{
-	display: inline-block;
-	float: left;
-	width:33%;
-	height:auto;
-	text-align: center;
+.image-title {
+	background:rgba(116, 116, 116, 0.8);
+	color:#fff;
+	border-radius:10px;
+	padding:5px;
 }
 
-.container {
-	margin-bottom : 3em;
+#japan{
+	background: url("https://source.unsplash.com/n--CMLApjfI") no-repeat center;
+	background-size: cover;
+
 }
 
-.container::after{
-	content: "";
-	clear: both;
-	display: table;
+#jeuxvideo {
+	background: url("https://source.unsplash.com/DDHNI1Y4wm8") no-repeat center;
+	background-size: cover;
+
 }
+
+#litterature {
+	background: url("https://source.unsplash.com/HAwA1N2gjo8") no-repeat center;
+	background-size: cover;
+}
+
+#sciences {
+	background: url("https://source.unsplash.com/Yj1M5riCKk4") no-repeat center;
+	background-size: cover;
+	
+}
+
+#human {
+	background: url("https://source.unsplash.com/yjePAp-tpmQ") no-repeat top;
+	background-size: cover;
+
+}
+
+#twinpeaks {
+	background: url("https://source.unsplash.com/4PxJ_9wEQyI") no-repeat center;
+	background-size: cover;
+	
+}
+
+
 #photoID{
 	display:block;
 	width:300px;
@@ -119,3 +170,26 @@ ul li{
 	font-weight:700;
 }
 
+.diplome {
+	background:#747474;
+	color:#fff;
+	margin:0 10px;
+	padding:5px;
+	border-radius:5px;
+}
+
+#parcours-pro p {
+	width:70%;
+	height:auto;
+	margin:10px auto;
+	padding:10px;
+	background:#747474;
+	color:#fff;
+	border-radius:15px;
+	text-align:center;
+}
+
+footer {
+	border-bottom: 5px solid #4a4a4a;
+	padding-bottom:2em;
+}
